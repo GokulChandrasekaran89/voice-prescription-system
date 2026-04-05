@@ -1,0 +1,169 @@
+/* LAYOUT */
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6f9;
+  color: #111;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  background: linear-gradient(135deg, #1d2671, #3a4bdc);
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  white-space: normal;
+}
+
+.nav-btn {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 12px 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  opacity: 0.85;
+}
+
+.sidebar-bottom {
+  margin-top: 30px;
+}
+
+.logout-btn {
+  background: #c33764;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.dark-toggle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* MAIN CONTENT */
+.content {
+  flex: 1;
+  padding: 30px;
+}
+
+/* TOP BAR */
+.topbar {
+  background: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* HEADER CARD */
+.header-card {
+  background: linear-gradient(135deg, #1d2671, #3a4bdc);
+  color: white;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+/* SEARCH */
+.search-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+thead {
+  background: #1d2671;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.prescription-btn {
+  background: #1d2671;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* DARK MODE */
+.dashboard.dark {
+  background: #121212;
+  color: white;
+}
+
+.dashboard.dark .content {
+  background: #121212;
+}
+
+.dashboard.dark table {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+.dashboard.dark thead {
+  background: #2c2c2c;
+}
+
+.dashboard.dark tr:nth-child(even) {
+  background: #252525;
+}
+
+.dashboard.dark .search-box {
+  background: #1e1e1e;
+  color: white;
+  border: 1px solid #444;
+}
+
+.dashboard.dark .topbar {
+  background: #1e1e1e;
+  color: white;
+}
+
+.dashboard.dark .header-card {
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+.dashboard.dark .prescription-btn {     
+  background: #3a4bdc;
+}

@@ -1,0 +1,70 @@
+.patient-container {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.create-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.create-btn:hover {
+  background-color: #0056b3;
+}
+
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-table th,
+.patient-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.patient-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.patient-form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  gap: 5px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 8px;
+}
+
+.input-group button {
+  padding: 8px 10px;
+  cursor: pointer;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

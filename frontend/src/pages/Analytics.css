@@ -1,0 +1,35 @@
+.analytics-page {
+  padding: 20px;
+}
+
+.analytics-page h2 {
+  margin-bottom: 20px;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h4 {
+  margin-bottom: 15px;
+  color: #1d2671;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+/* Dark Mode */
+.dark .card {
+  background: #1f2937;
+  color: white;
+}
